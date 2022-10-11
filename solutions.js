@@ -21,3 +21,40 @@
  * concat
  */
 
+function concat(concatInput1, concatInput2){
+    return concatInput1.toString() + concatInput2.toString();
+}
+
+console.log(concat("hello", "world"));
+console.log(concat(4, 2));
+
+function and(andInput1, andInput2) {
+    return andInput1 && andInput2;
+}
+
+console.log(and(true, true));
+console.log(and(true, false));
+console.log(and(false, false));
+
+function or(orInput1, orInput2) {
+    return orInput1 || orInput2;
+}
+
+console.log(or(true, true));
+console.log(or(true, false));
+console.log(or(false, false));
+
+function isEqual(isEqualInput1, isEqualInput2){
+    return isEqualInput1 == isEqualInput2;
+}
+
+function isIdentical(isIdenticalInput1, isIdenticalInput2){
+    return isIdenticalInput1 === isIdenticalInput2;
+}
+
+function isEven(isEvenInput){
+    return isEvenInput % 2 === 0;
+}
+
+
+console.log(isEven(false));
