@@ -53,8 +53,26 @@ function isIdentical(isIdenticalInput1, isIdenticalInput2){
 }
 
 function isEven(isEvenInput){
-    return isEvenInput % 2 === 0;
+    return parseFloat(isEvenInput) % 2 === 0;
 }
 
-
 console.log(isEven(false));
+
+function addOne(addOneInput){
+    return parseFloat(addOneInput) + 1;
+}
+
+console.log(addOne("-5"));
+console.log(addOne("0"));
+
+function isFalse(isFalseInput){
+    return isFalseInput === false;
+}
+
+function not(notInput){
+    return !notInput;
+}
+
+function isTrue(isTrueInput){
+    return isTrueInput === true;
+}
